@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <style>
+.myclass{
+    background-image: url("smartphone_man_smile.png");
+    height: 628px;
+    width: 470px;
+}
+      @keyframes myanim {
+        0% {
+            transform: translateX(0px) translateY(0px) rotateZ(0deg);
+        font-size: 0px;
+        background-color: blue;
+        }
+        52%{
+            transform: translateX(0px) translateY(0px) rotateZ(0deg);
+
+        }
+        57%{
+            font-size: 30px;
+            background-color: yellow;
+            
+            transform: translateX(200px) translateY(-678px) rotateZ(360deg);
+        }
+        100% {
+
+            transform: translateX(200px) translateY(-678px) rotateZ(360deg);
+            background-color: red;            
+            font-size: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="myclass" style="background-color: red;animation-direction: alternate; animation-name: myanim;animation-timing-function: linear;animation-duration: 3s;animation-iteration-count: infinite;">aa</div>
+  </body>
+</html>
